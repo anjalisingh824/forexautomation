@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.smartsense.fx.TradingGuideTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addTradingGuide"/>
+          <include name="testAdminLogin"/>
+          <include name="checkTradingGuideCustomerSide"/>
+          <include name="setUp"/>
+          <include name="editTradingGuideNext"/>
+        </methods>
+      </class> <!-- com.smartsense.fx.TradingGuideTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
